@@ -71,7 +71,7 @@ export  function Navbar() {
     <header className="w-full border-b">
       <div className="flex h-14 items-center justify-between px-4 md:px-8">
         {/* Logo */}
-        <Logo />
+        <Logo  />
         {/* Desktop Navigation */}
         <DesktopNavigation
           navLinks={navLinks}
