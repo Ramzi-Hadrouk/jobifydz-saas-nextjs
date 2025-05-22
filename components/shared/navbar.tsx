@@ -2,17 +2,11 @@
 
 import * as React from "react";
 import Link from "next/link";
-import { Menu, LogIn, LogOut } from "lucide-react";
-import { Button } from "@/components/ui/button";
-import {
-  Sheet,
-  SheetTrigger,
-  SheetContent,
-} from "@/components/ui/sheet";
-import { ModeToggle } from "@/components/shared/mode-toggel"; // Ensure this path points to your ModeToggle component
-import { Logo} from "@/components/shared/logo" ; // Ensure this path points to your Logo component
+import { Menu } from "lucide-react";
+import { Button, Sheet, SheetTrigger, SheetContent } from "@/components/ui";
+import { ModeToggle, Logo, LoginLogoutButton } from "@/components/shared";
 
-import { LoginLogoutButton } from "@/components/shared/login-logout-button";
+
 
 //  -----SubComponent ---- Desktop Navigation Component
 function DesktopNavigation({ navLinks }: { navLinks: { title: string; href: string }[] }) {
