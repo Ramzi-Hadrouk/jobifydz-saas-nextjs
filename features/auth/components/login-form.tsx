@@ -1,5 +1,4 @@
 "use client";
-import { GalleryVerticalEnd } from "lucide-react"
 import { Logo } from "@/components/shared"
 import { cn } from "@/lib/utils"
 import { Button } from "@/components/ui/button"
