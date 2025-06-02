@@ -68,7 +68,7 @@ export  function Navbar() {
   ];
 
   return (
-    <header className="w-full border-b">
+    <header className="w-full border-b h-[55px]">
       <div className="flex h-14 items-center justify-between px-4 md:px-8">
         {/* Logo */}
         <Logo  />
