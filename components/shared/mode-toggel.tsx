@@ -19,9 +19,9 @@ export function ModeToggle() {
 
     <Button variant="ghost" size="icon" onClick={toggleTheme}>
       {theme === "dark" ? (
-        <Sun className="h-[1.2rem] w-[1.2rem]" />
+        <Sun size={15}/>
       ) : (
-        <Moon className="h-[1.2rem] w-[1.2rem]" />
+        <Moon size={15} />
       )}
       <span className="sr-only">Toggle theme</span>
     </Button>

@@ -1,4 +1,4 @@
-"use client";
+"use server";
 
 import * as React from "react";
 import Link from "next/link";
@@ -59,7 +59,7 @@ function MobileNavigation({ navLinks }: { navLinks: { title: string; href: strin
 
 
 // -----MainComponent ----Navbar
-export  function Navbar() {
+export  async function Navbar() {
  
 
   const navLinks = [
