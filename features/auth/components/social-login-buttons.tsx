@@ -9,7 +9,7 @@ export async function SocialLoginButtons() {
             <form
                 action={async function()  {
                      "use server";
-                    await signIn("github", { redirectTo: "/" })
+                    await signIn("google", { redirectTo: "/" })
                 }}
             >
                 <Button variant="outline" type="submit" >
