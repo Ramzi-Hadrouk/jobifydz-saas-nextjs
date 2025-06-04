@@ -1,1 +1,2 @@
-export { auth as middleware } from "@/features/auth";
+// Empty middleware to avoid using Prisma Client in Edge Runtime
+export function middleware() {}
