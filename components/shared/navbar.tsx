@@ -16,7 +16,7 @@ function DesktopNavigation({ navLinks }: { navLinks: { title: string; href: stri
         <Link
           key={link.title}
           href={link.href}
-          className="text-sm font-medium text-muted-foreground hover:text-primary"
+          className="text-sm font-medium   hover:text-primary"
         >
           {link.title}
         </Link>
@@ -44,7 +44,7 @@ function MobileNavigation({ navLinks }: { navLinks: { title: string; href: strin
               <Link
                 key={link.title}
                 href={link.href}
-                className="text-sm font-medium text-muted-foreground hover:text-primary"
+                className="text-sm font-medium  hover:text-primary"
               >
                 {link.title}
               </Link>
@@ -68,8 +68,8 @@ export  async function Navbar() {
   ];
 
   return (
-    <header className="w-full border-b h-[55px]">
-      <div className="flex h-14 items-center justify-between px-4 md:px-8">
+    <header className="w-full border-b h-[55px] flex items-center justify-between px-4 md:px-8">
+
         {/* Logo */}
         <Logo  />
         {/* Desktop Navigation */}
@@ -82,7 +82,7 @@ export  async function Navbar() {
           navLinks={navLinks}
     
         />
-      </div>
+    
     </header>
   );
 }
